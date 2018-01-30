@@ -1,0 +1,1 @@
+insert  into region_cn (`region_id`,`zone_code`,`title`,`title_py`,`level`, `status`,`create_time`,`update_time`,`operator`) values (100,100,'全国','quanguo',1,0,UNIX_TIMESTAMP(),cast(DATE_FORMAT(now(),'%Y%m%d%H%i%s') as UNSIGNED),-1)
